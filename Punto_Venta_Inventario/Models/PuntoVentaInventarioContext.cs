@@ -337,5 +337,33 @@ public partial class PuntoVentaInventarioContext : DbContext
         return (int)resultadoParam.Value;
     }
 
+    public async Task<int> InsertarClienteAsync(string noCedula, string primerNombre, string segundoNombre, string primerApellido, string segundoApellido, DateTime fechaNacimiento, string direccion, string telefono, string email, string usuarioCrea)
+    {
+        // Parámetros para el procedimiento almacenado
+        var noCedulaParam = new SqlParameter("@No_Cedula", noCedula);
+        var primerNombreParam = new SqlParameter("@Primer_Nombre", primerNombre);
+        var segundoNombreParam = new SqlParameter("@Segundo_Nombre", segundoNombre);
+        var primerApellidoParam = new SqlParameter("@Primer_Apellido", primerApellido);
+        var segundoApellidoParam = new SqlParameter("@Segundo_Apellido", segundoApellido);
+        var fechaNacimientoParam = new SqlParameter("@Fecha_Nacimiento", fechaNacimiento);
+        var direccionParam = new SqlParameter("@Direccion", direccion);
+        var telefonoParam = new SqlParameter("@Telefono", telefono);
+        var emailParam = new SqlParameter("@Email", email);
+        var usuarioCreaParam = new SqlParameter("@Usuario_Crea", usuarioCrea);
+
+        // Parámetro de salida
+        var resultadoParam = new SqlParameter("@Resultado", SqlDbType.Int)
+        {
+            Direction = ParameterDirection.Output
+        };
+
+        // Llamada al procedimiento almacenado
+        await Database.ExecuteSqlRawAsync(
+            "EXEC dbo.Sp_InsertarCliente @No_Cedula, @Primer_Nombre, @Segundo_Nombre, @Primer_Apellido, @Segundo_Apellido, @Fecha_Nacimiento, @Direccion, @Telefono, @Email, @Usuario_Crea, @Resultado OUTPUT",
+            noCedulaParam, primerNombreParam, segundoNombreParam, primerApellidoParam, segundoApellidoParam, fechaNacimientoParam, direccionParam, telefonoParam, emailParam, usuarioCreaParam, resultadoParam);
+
+        // Devolver el resultado
+        return (int)resultadoParam.Value;
+    }
 
 }

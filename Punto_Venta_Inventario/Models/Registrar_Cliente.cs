@@ -13,11 +13,11 @@ public class Registrar_Cliente
 
     public string PrimerNombre { get; set; }
 
-    public string SegundoNombre { get; set; }
+    public string ?SegundoNombre { get; set; }
 
     public string PrimerApellido { get; set; }
 
-    public string SegundoApellido { get; set; }
+    public string ?SegundoApellido { get; set; }
 
     public DateTime FechaNacimiento { get; set; }
 
@@ -31,9 +31,9 @@ public class Registrar_Cliente
 
     public DateTime FechaCreacion { get; set; }
 
-    public string UsuarioActualiza { get; set; }
+    public string ?UsuarioActualiza { get; set; }
 
-    public DateTime FechaActualizacion { get; set; }
+    public DateTime ?FechaActualizacion { get; set; }
 
     public bool Estado { get; set; }
 }

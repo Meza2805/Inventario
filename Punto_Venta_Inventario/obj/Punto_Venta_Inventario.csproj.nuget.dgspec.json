@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj": {}
+    "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj": {
+    "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
+        "projectUniqueName": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
         "projectName": "Punto_Venta_Inventario",
-        "projectPath": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
+        "projectPath": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
         "packagesPath": "C:\\Users\\UNCSM-SISTEMAS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\obj\\",
+        "outputPath": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UNCSM-SISTEMAS\\AppData\\Roaming\\NuGet\\NuGet.Config",

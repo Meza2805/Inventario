@@ -2,9 +2,9 @@
 
 @{
     ViewData["Title"] = "Index";
-    var urlRegistroProducto = Url.Action("CrearProducto", "Productoes");
+    var urlRegistroCliente = Url.Action("CrearCliente", "Clientes");
 }
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <div class="mt-3 text-center">
     <h1>
         Clientes Registrados
@@ -61,8 +61,8 @@
                             <input type="text" class="form-control" id="Telefono" placeholder="Telefono" autocomplete="off" pattern="^\d{8}$" required>
                         </div>
                         <div class="col-lg-3 col-md-6 col-xs-12">
-                            <label for="SegundoApellido" class="form-label">Dirección</label>
-                            <input type="email" class="form-control" id="Direccion" placeholder="Dirección" autocomplete="off" required>
+                            <label for="Direccion" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="Direccion" placeholder="Dirección" autocomplete="off" required>
                         </div>
                     </div>
                 </div>
@@ -76,38 +76,38 @@
 
 <script>
 
-    $("#frm_registro_producto").on('submit', function (event) {
+    $("#frm_registro_cliente").on('submit', function (event) {
         event.preventDefault(); // Evita el envío del formulario por defecto
 
-        var _objproducto = {
-            IdProducto: 0, // int
-            IdCategoria: $("#NombreProd").val() || null, // int
-            IdMarca: parseInt($("#MarcaProducto").val(), 10) || null, // int? (null si no hay valor)
-            Nombre: $("#NombreProd").val() || null, // string?
-            Descripcion: $("#DescripcionProd").val() || null, // string?
-            Modelo: $("#ModeloProd").val() || null, // string?
-            PrecioVenta: 0.0, // decimal
-            PrecioCosto: 0.0, // decimal
-            CantidadInventario: 0.0, // int?
+        var _objcliente = {
+            NoCedula: $("#NoCedula").val() ,
+            PrimerNombre: $("#PrimerNombre").val(),
+            SegundoNombre: $("#SegundoNombre").val() ,
+            PrimerApellido: $("#PrimerApellido").val() ,
+            SegundoApellido: $("#SegundoApellido").val(),
+            FechaNacimiento: $("#Fecha_nac").val() ,
+            Direccion: $("#Direccion").val(),
+            Telefono: $("#Telefono").val() ,
+            Email: "",
             UsuarioCrea: "admin", // string?
             FechaCreacion: new Date().toISOString(), // DateTime?
             UsuarioActualiza: null, // string?
             FechaActualizacion: null, // DateTime?
-            Estado: false // bool?
+            Estado: true // bool?
         };
 
         debugger;
 
         $.ajax({
-            url: '@urlRegistroProducto', // Asegúrate que esta URL es procesada correctamente por tu entorno
+            url: '@urlRegistroCliente', // Asegúrate que esta URL es procesada correctamente por tu entorno
             type: "POST",
-            data: JSON.stringify(_objproducto),
+            data: JSON.stringify(_objcliente),
             dataType: "json",
             contentType: "application/json; charset=utf-8",
             success: function (data) {
                 if (data.salida == 1) {
                     Swal.fire({
-                        title: "Producto registrado con éxito!",
+                        title: "Cliente registrado con éxito!",
                         icon: "success",
                         confirmButtonColor: '#3d3d3d',
                         confirmButtonText: 'Aceptar',

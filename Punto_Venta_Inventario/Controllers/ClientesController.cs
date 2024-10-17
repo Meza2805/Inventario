@@ -154,41 +154,40 @@ namespace Punto_Venta_Inventario.Controllers
         }
 
 
-        //[HttpPost]
-        //public async Task<IActionResult> CrearCliente([FromBody] Registrar_Cliente model)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var resultado = await _context.InsertarProductoAsync(model.NoCedula, model.PrimerNombre, model.SegundoNombre, model.PrimerApellido, model.SegundoApellido, model.FechaNacimiento, model.Direccion, model.UsuarioCrea);
-        //        if (resultado == 1)
-        //        {
-        //            //return RedirectToAction("Index"); // Redirigir si fue exitoso
-        //            // Devolver el resultado en formato JSON
-        //            return Json(new { salida = resultado });
-        //        }
-        //        else if (resultado == 2)
-        //        {
-        //            return Json(new { salida = resultado });
-        //        }
-        //        else
-        //        {
-        //            return Json(new { salida = resultado });
-        //        }
-        //    }
+        [HttpPost]
+        public async Task<IActionResult> CrearCliente([FromBody] Registrar_Cliente model)
+        {
+            if (ModelState.IsValid)
+            {
+                var resultado = await _context.InsertarClienteAsync(model.NoCedula, model.PrimerNombre, model.SegundoNombre, model.PrimerApellido, model.SegundoApellido, model.FechaNacimiento, model.Direccion, model.Telefono, model.Email, model.UsuarioCrea);
+                if (resultado == 1)
+                {
+                 
+                    return Json(new { salida = resultado });
+                }
+                else if (resultado == 2)
+                {
+                    return Json(new { salida = resultado });
+                }
+                else
+                {
+                    return Json(new { salida = resultado });
+                }
+            }
 
-        //    if (!ModelState.IsValid)
-        //    {
-        //        var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
-        //        // Puedes registrar los errores o mostrarlos
-        //        Console.WriteLine(string.Join(", ", errors));
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+              //  Puedes registrar los errores o mostrarlos
+                Console.WriteLine(string.Join(", ", errors));
 
-        //        // Alternativamente, puedes devolver una respuesta de error en lugar de continuar
-        //        return BadRequest(new { errores = errors });
-        //    }
+              //  Alternativamente, puedes devolver una respuesta de error en lugar de continuar
+                return BadRequest(new { errores = errors });
+            }
 
 
-        //    // Si llegamos aquí, algo falló, volver a mostrar el formulario
-        //    return View(model);
-        //}
+          //  Si llegamos aquí, algo falló, volver a mostrar el formulario
+            return View(model);
+        }
     }
 }
