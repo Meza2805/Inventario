@@ -1,0 +1,252 @@
+﻿@model IEnumerable<Punto_Venta_Inventario.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+    var urlRegistroProducto = Url.Action("CrearProducto", "Productoes");
+}
+
+<div class="mt-3 text-center">
+    <h1>
+        Clientes Registrados
+    </h1>
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalCliente">
+    Nuevo Cliente
+</button>
+<hr />
+<!-- Modal -->
+<div class="modal fade" id="ModalCliente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <form id="frm_registro_cliente">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registro de Nuevo Producto</h5>
+                </div>
+                <div class="modal-body">
+
+                    <div class="mb-3 row g-3">
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="NoCedula" class="form-label">No. Cedula</label>
+                            <input type="text" class="form-control" id="NoCedula" placeholder="No. Cedula" autocomplete="off" pattern="^\d{13}[A-Za-z]{1}$" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row g-3">
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="PrimerNombre" class="form-label">Primer Nombre</label>
+                            <input type="text" class="form-control" id="PrimerNombre" placeholder="Primer Nombre" autocomplete="off" required>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="SegundoNombre" class="form-label">Segundo Nombre</label>
+                            <input type="text" class="form-control" id="SegundoNombre" placeholder="Segundo Nombre" autocomplete="off" >
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="PrimerApellido" class="form-label">Primer Apellido</label>
+                            <input type="text" class="form-control" id="PrimerApellido" placeholder="Primer Apellido" autocomplete="off" required>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="SegundoApellido" class="form-label">Segundo Apellido</label>
+                            <input type="text" class="form-control" id="SegundoApellido" placeholder="SegundoApellido" autocomplete="off" >
+                        </div>
+                    
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="Fecha_nac" class="form-label">Fecha Nacimiento</label>
+                            <input type="date" name="fecha_nac" id="Fecha_nac" class="form-control formField" required>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="SegundoApellido" class="form-label">Telefono</label>
+                            <input type="text" class="form-control" id="Telefono" placeholder="Telefono" autocomplete="off" pattern="^\d{8}$" required>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <label for="SegundoApellido" class="form-label">Dirección</label>
+                            <input type="email" class="form-control" id="Direccion" placeholder="Dirección" autocomplete="off" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $("#frm_registro_producto").on('submit', function (event) {
+        event.preventDefault(); // Evita el envío del formulario por defecto
+
+        var _objproducto = {
+            IdProducto: 0, // int
+            IdCategoria: $("#NombreProd").val() || null, // int
+            IdMarca: parseInt($("#MarcaProducto").val(), 10) || null, // int? (null si no hay valor)
+            Nombre: $("#NombreProd").val() || null, // string?
+            Descripcion: $("#DescripcionProd").val() || null, // string?
+            Modelo: $("#ModeloProd").val() || null, // string?
+            PrecioVenta: 0.0, // decimal
+            PrecioCosto: 0.0, // decimal
+            CantidadInventario: 0.0, // int?
+            UsuarioCrea: "admin", // string?
+            FechaCreacion: new Date().toISOString(), // DateTime?
+            UsuarioActualiza: null, // string?
+            FechaActualizacion: null, // DateTime?
+            Estado: false // bool?
+        };
+
+        debugger;
+
+        $.ajax({
+            url: '@urlRegistroProducto', // Asegúrate que esta URL es procesada correctamente por tu entorno
+            type: "POST",
+            data: JSON.stringify(_objproducto),
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                if (data.salida == 1) {
+                    Swal.fire({
+                        title: "Producto registrado con éxito!",
+                        icon: "success",
+                        confirmButtonColor: '#3d3d3d',
+                        confirmButtonText: 'Aceptar',
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            location.reload();
+                        }
+                    });
+                } else if (data.salida == 2) {
+                    Swal.fire({
+                        title: "¡Ya existe este registro!",
+                        text: "El registro que intenta ingresar ya existe en la base de datos",
+                        icon: "info",
+                        confirmButtonColor: '#3d3d3d',
+                        confirmButtonText: 'Aceptar',
+                    });
+                } else {
+                    Swal.fire({
+                        title: "Registro no almacenado!",
+                        icon: "error",
+                        confirmButtonColor: '#b12406',
+                        confirmButtonText: 'Aceptar',
+                    });
+                }
+            },
+            error: function (xhr, status, error) {
+                Swal.fire({
+                    title: "¡Error!",
+                    text: "Se produjo un error al almacenar el registro: " + error,
+                    icon: "error",
+                    confirmButtonColor: '#b12406',
+                    confirmButtonText: 'Aceptar',
+                });
+            }
+        });
+    });
+
+</script>
+
+
+
+<div class="mt-3 mb-3 table-responsive">
+    <table class="table display table table-bordered border-ligth compact hover nowrap" id="Cliente">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.NoCedula)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PrimerNombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SegundoNombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PrimerApellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SegundoApellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaNacimiento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Direccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UsuarioCrea)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaCreacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UsuarioActualiza)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaActualizacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estado)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NoCedula)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrimerNombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SegundoNombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrimerApellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SegundoApellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Direccion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UsuarioCrea)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaCreacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UsuarioActualiza)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaActualizacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estado)
+                    </td>
+                  
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

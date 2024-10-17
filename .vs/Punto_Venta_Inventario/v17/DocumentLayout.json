@@ -1,0 +1,572 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\categoriums\\vistacategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\categoriums\\vistacategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\productoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\productoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\categoriumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\categoriumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\models\\categorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\models\\categorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\proveedors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\proveedors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\models\\registrar_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\models\\registrar_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\inventarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\inventarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\models\\registrarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\models\\registrarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\models\\puntoventainventariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\models\\puntoventainventariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\punto_venta_inventario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\punto_venta_inventario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\inventarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\inventarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\compras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\compras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\ventums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\ventums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\ventumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\ventumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\proveedorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\proveedorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\productoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\productoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\home\\proveedor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\home\\proveedor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\home\\venta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\home\\venta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\home\\compra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\home\\compra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\users\\uncsm-sistemas\\documents\\github\\punto venta inventario\\punto_venta_inventario\\punto_venta_inventario\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 353,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAcwMIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:42:26.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:07:54.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Registrar_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA8wAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:20:48.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriumsController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\CategoriumsController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\CategoriumsController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\CategoriumsController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\CategoriumsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T14:46:51.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VistaCategoria.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T15:01:22.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAcwFQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T22:45:24.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEsAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T14:15:54.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categorium.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Categorium.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Categorium.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Categorium.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Models\\Categorium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T22:01:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Cliente.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:20:57.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\ProductoesController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAA2wKgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:55:06.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventariosController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\InventariosController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\InventariosController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\InventariosController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\InventariosController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T20:11:02.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PuntoVentaInventarioContext.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwDgBAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:38:05.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistrarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\RegistrarProducto.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\RegistrarProducto.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\RegistrarProducto.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Models\\RegistrarProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:50:19.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Punto_Venta_Inventario.csproj",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-16T17:16:14.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Punto_Venta_Inventario\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T15:31:44.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProveedorsController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ProveedorsController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ProveedorsController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ProveedorsController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\ProveedorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:15:54.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ComprasController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ComprasController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ComprasController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\ComprasController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\ComprasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:17:17.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Ventums\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Ventums\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Ventums\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Ventums\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T23:31:58.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Inventarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Inventarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Inventarios\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Inventarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T23:37:31.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Compras\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Compras\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Compras\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Compras\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T23:34:38.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VentumsController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\VentumsController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\VentumsController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\VentumsController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\VentumsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:18:42.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Productoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Productoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Productoes\\Create.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Productoes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T22:13:04.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:43:38.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Proveedor.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Proveedor.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Proveedor.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Proveedor.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Home\\Proveedor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:51:04.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Compra.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Compra.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Compra.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Compra.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Home\\Compra.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:43:19.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Cliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Cliente.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Cliente.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Cliente.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Home\\Cliente.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:42:46.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Venta.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Venta.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Venta.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Venta.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Home\\Venta.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:43:06.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:06:52.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:07:00.044Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "fd1d682c-87a2-4f76-a877-144f0ced4fc7",
+        "Display": 1,
+        "X": -5,
+        "Y": 0,
+        "Width": 846,
+        "Height": 725,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Models\\Producto.cs",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:49:12.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "45f0b9c7-f06f-4b80-a430-d70b0e647d6d",
+        "Display": 1,
+        "X": 159,
+        "Y": 69,
+        "Width": 989,
+        "Height": 444,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\UNCSM-SISTEMAS\\Documents\\GitHub\\Punto Venta Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T23:22:36.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

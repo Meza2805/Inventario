@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Punto_Venta_Inventario.Models.Proveedor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="mt-3 text-center">
+    <h1>
+        Proveedores Registrados
+    </h1>
+</div>
+<div class="mt-3 mb-3 table-responsive">
+    <table class="table display table table-bordered border-ligth compact hover nowrap" id="Proveedor" >
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contacto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Direccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UsuarioCrea)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaCreacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UsuarioActualiza)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaActualizacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estado)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Contacto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Direccion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UsuarioCrea)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaCreacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UsuarioActualiza)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaActualizacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estado)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,291 @@
+﻿@model IEnumerable<Punto_Venta_Inventario.Models.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+    var urlRegistroProducto = Url.Action("CrearProducto", "Productoes");
+}
+
+
+
+
+<div class="mt-3 text-center">
+    <h1>
+        Productos Registrados
+    </h1>
+</div>
+<hr />
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalProducto">
+    Nuevo Producto
+</button>
+<hr />
+<!-- Modal -->
+<div class="modal fade" id="ModalProducto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <form  id="frm_registro_producto">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Registro de Nuevo Producto</h5>
+          </div>
+          <div class="modal-body">
+      
+                <div class="mb-3 row g-3">
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <label for="NombreProd" class="form-label">Nombre de Producto</label>
+                        <input type="text" class="form-control" id="NombreProd" placeholder="Nombre" autocomplete="off" required>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <label for="DescripcionProd" class="form-label">Descripción de Producto</label>
+                        <input type="text" class="form-control" id="DescripcionProd" placeholder="Descripción" autocomplete="off" required>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <label for="ModeloProd" class="form-label">Modelo de Producto</label>
+                        <input type="text" class="form-control" id="ModeloProd" placeholder="Modelo" autocomplete="off" required>
+                    </div>
+                    @*  <div class="col-lg-3 col-md-6 col-xs-12">
+                        <label for="VentaProd" class="form-label">Precio venta</label>
+                        <input type="text" class="form-control" id="VentaProd" placeholder="Precio" required>
+                    </div> *@
+             </div>
+             <div class="row g-3">
+                       @*    <div class="col-lg-3 col-md-6 col-xs-12">
+                    <label for="VentaProd" class="form-label">Precio Compra</label>
+                    <input type="text" class="form-control" id="VentaProd" placeholder="Costo" required>
+                </div> *@
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                          <label for="CategoriaProducto" class="form-label">Categoría</label>
+                          <select class="js-example-responsive" style="width: 100%;" id="CategoriaProducto"  required>
+                           </select>   
+                    </div>
+                      <div class="col-lg-3 col-md-6 col-xs-12">
+                          <label for="MarcaProducto" class="form-label">Marca</label>
+                          <select class="js-example-responsive" style="width: 100%;" id="MarcaProducto"  required>
+                           </select>   
+                    </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary">Guardar</button>
+          </div>
+       </form>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 table-responsive">
+    <table class="table display table table-bordered border-ligth compact hover nowrap" id="Producto">
+        <thead>
+            <tr>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th class="text-center">
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Modelo)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.PrecioVenta)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.PrecioCosto)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.CantidadInventario)
+                </th>
+               <th class="text-center">
+                @Html.DisplayNameFor(model => model.UsuarioCrea)
+                </th>
+                <th class="text-center">
+                @Html.DisplayNameFor(model => model.FechaCreacion)
+                </th>
+                <th class="text-center">
+                @Html.DisplayNameFor(model => model.UsuarioActualiza)
+                </th>
+                <th class="text-center">
+                @Html.DisplayNameFor(model => model.FechaActualizacion)
+                </th>
+                      <th class="text-center">
+                @Html.DisplayNameFor(model => model.Estado)
+                </th>
+                      <th class="text-center">
+                @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.IdMarcaNavigation)
+                </th>
+               @*  <th></th> *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Modelo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrecioVenta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrecioCosto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CantidadInventario)
+                    </td>
+                                <td>
+                @Html.DisplayFor(modelItem => item.UsuarioCrea)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.FechaCreacion)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.UsuarioActualiza)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.FechaActualizacion)
+                </td>
+                          <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+                </td>
+                                <td>
+                @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.IdCategoria)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.IdMarcaNavigation.IdMarca)
+                </td>
+             @*         <td>
+                <a asp-action="Edit" asp-route-id="@item.IdProducto">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdProducto">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdProducto">Delete</a>
+                </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
+
+@section Scripts {
+    <script type="text/javascript">
+        // Cargar categorías cuando se abra el modal
+        $('#ModalProducto').on('shown.bs.modal', function () {
+            $.ajax({
+                url: '@Url.Action("Index", "Categoriums")', // Asegúrate de que la URL sea correcta
+                type: 'GET',
+                dataType: 'json',
+                success: function (categorias) {
+                    var select = $('#CategoriaProducto');
+                    select.empty(); // Limpiar el select
+                    select.append('<option value="">Seleccione una categoría</option>'); // Opción por defecto
+                    $.each(categorias, function (index, categoria) {
+                        select.append('<option value="' + categoria.idCategoria + '">' + categoria.nombre + '</option>');
+                    });
+                },
+                error: function (error) {
+                    console.log('Error al cargar las categorías:', error);
+                }
+            });
+        });
+
+        //
+         $('#ModalProducto').on('shown.bs.modal', function () {
+            $.ajax({
+                url: '@Url.Action("Index", "Marcas")', // Asegúrate de que la URL sea correcta
+                type: 'GET',
+                dataType: 'json',
+                success: function (Marcas) {
+                    var select = $('#MarcaProducto');
+                    select.empty(); // Limpiar el select
+                    select.append('<option value="">Seleccione una Marca</option>'); // Opción por defecto
+                    $.each(Marcas, function (index, marca) {
+                        select.append('<option value="' + marca.idMarca + '">' + marca.nombre + '</option>');
+                    });
+                },
+                error: function (error) {
+                    console.log('Error al cargar las categorías:', error);
+                }
+            });
+        });
+
+
+        $("#frm_registro_producto").on('submit', function (event) {
+            event.preventDefault(); // Evita el envío del formulario por defecto
+
+            var _objproducto = {
+                IdProducto: 0, // int
+                IdCategoria: parseInt($("#CategoriaProducto").val(), 10), // int
+                IdMarca: parseInt($("#MarcaProducto").val(), 10) || null, // int? (null si no hay valor)
+                Nombre: $("#NombreProd").val() || null, // string?
+                Descripcion: $("#DescripcionProd").val() || null, // string?
+                Modelo: $("#ModeloProd").val() || null, // string?
+                PrecioVenta: 0.0, // decimal
+                PrecioCosto:  0.0, // decimal
+                CantidadInventario:0.0, // int?
+                UsuarioCrea: "admin", // string?
+                FechaCreacion: new Date().toISOString(), // DateTime?
+                UsuarioActualiza: null, // string?
+                FechaActualizacion: null, // DateTime?
+                Estado: false // bool?
+            };
+
+            debugger;
+
+            $.ajax({
+                url: '@urlRegistroProducto', // Asegúrate que esta URL es procesada correctamente por tu entorno
+                type: "POST",
+                data: JSON.stringify(_objproducto),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data.salida == 1) {
+                        Swal.fire({
+                            title: "Producto registrado con éxito!",
+                            icon: "success",
+                            confirmButtonColor: '#3d3d3d',
+                            confirmButtonText: 'Aceptar',
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                location.reload();
+                            }
+                        });
+                    } else if (data.salida == 2) {
+                        Swal.fire({
+                            title: "¡Ya existe este registro!",
+                            text: "El registro que intenta ingresar ya existe en la base de datos",
+                            icon: "info",
+                            confirmButtonColor: '#3d3d3d',
+                            confirmButtonText: 'Aceptar',
+                        });
+                    } else {
+                        Swal.fire({
+                            title: "Registro no almacenado!",
+                            icon: "error",
+                            confirmButtonColor: '#b12406',
+                            confirmButtonText: 'Aceptar',
+                        });
+                    }
+                },
+                error: function (xhr, status, error) {
+                    Swal.fire({
+                        title: "¡Error!",
+                        text: "Se produjo un error al almacenar el registro: " + error,
+                        icon: "error",
+                        confirmButtonColor: '#b12406',
+                        confirmButtonText: 'Aceptar',
+                    });
+                }
+            });
+        });
+
+    </script>
+}

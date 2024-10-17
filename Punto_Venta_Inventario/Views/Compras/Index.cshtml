@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Punto_Venta_Inventario.Models.Compra>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="mt-3 text-center">
+    <h1>
+        Compras Registradas
+    </h1>
+</div>
+<div class="mt-3 mb-3 table-responsive">
+    <table class="table display table table-bordered border-ligth compact hover nowrap" id="Compras">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaCompra)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalCompra)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UsuarioCrea)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaCreacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UsuarioModifica)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaModificacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estado)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdProveedorNavigation)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaCompra)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalCompra)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UsuarioCrea)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaCreacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UsuarioModifica)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaModificacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estado)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdProveedorNavigation.IdProveedor)
+                    </td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

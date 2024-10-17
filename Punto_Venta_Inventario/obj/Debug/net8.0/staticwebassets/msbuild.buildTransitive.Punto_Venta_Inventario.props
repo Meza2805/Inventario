@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Punto_Venta_Inventario.props" />
+</Project>

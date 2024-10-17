@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* Ajusta la altura del cuadro de selección */
+.select2-container--default .select2-selection--single {
+    height: 38px !important; /* Cambia la altura según tus necesidades */
+    display: flex !important;
+    align-items: center !important; /* Centra el contenido verticalmente */
+}
+
+    /* Ajusta el tamaño del texto dentro del select para que se vea mejor */
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: normal !important; /* Asegura que el texto no esté comprimido */
+        font-size: 15px; /* Ajusta el tamaño del texto según sea necesario */
+    }
+
+/* Ajusta la altura de las opciones del menú desplegable si es necesario */
+.select2-container--default .select2-results__option {
+    padding: 0px !important; /* Ajusta el padding para las opciones del dropdown */
+    color: black;
+}
