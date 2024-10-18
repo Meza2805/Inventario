@@ -1,0 +1,99 @@
+Funcion para Insertar Registros
+-------------------------------------
+Funcion 01
+
+  Array.from({ length: 25 }, (_, i) => ({
+    nombre: "Nombre" + (i + 1),
+    apellido: "Apellido" + (i + 1),
+    edad: Math.floor(Math.random() * 20 + 20), // Edad aleatoria entre 20 y 39
+    cargo: ["Desarrollador", "Analista", "Gerente", "Soporte"][Math.floor(Math.random() * 4)], // Cargo aleatorio
+    sexo: ["M", "F"][Math.floor(Math.random() * 2)] // Sexo aleatorio
+  }))
+
+
+Funcion 02
+
+ Array.from({ length: 10 }, (_, i) => ({
+    nombre: "Nombre" + (i + 26), // Comenzando desde 26 para continuar la secuencia
+    apellido: "Apellido" + (i + 26),
+    edad: Math.floor(Math.random() * 20 + 20), // Edad aleatoria entre 20 y 39
+    cargo: ["Desarrollador", "Analista", "Gerente", "Soporte"][Math.floor(Math.random() * 4)], // Cargo aleatorio
+    sexo: ["M", "F"][Math.floor(Math.random() * 2)], // Sexo aleatorio
+    carrera: ["Ingeniería en Computación", "Licenciatura en Informática Educativa", "Ingeniería en Sistemas", "Licenciatura en Contabilidad"][Math.floor(Math.random() * 4)] // Carrera aleatoria
+  }))
+
+Funcion 03
+
+Array.from({ length: 25 }, (_, i) => {
+    const cargos = ["Desarrollador", "Analista", "Gerente", "Soporte"];
+    const cargoIndex = Math.floor(Math.random() * 4);
+    const cargo = cargos[cargoIndex];
+
+    let salarioBase;
+    switch (cargo) {
+      case "Desarrollador":
+        salarioBase = 80000;
+        break;
+      case "Analista":
+        salarioBase = 70000;
+        break;
+      case "Gerente":
+        salarioBase = 90000;
+        break;
+      case "Soporte":
+        salarioBase = 60000;
+        break;
+    }
+
+    return {
+      nombre: "Nombre" + (i + 1),
+      apellido: "Apellido" + (i + 1),
+      edad: Math.floor(Math.random() * 20 + 20),
+      cargo: cargo,
+      sexo: ["M", "F"][Math.floor(Math.random() * 2)],
+      salario: Math.floor(Math.random() * 20000 + salarioBase) // Rango de variación de $20,000 sobre el salario base
+    };
+  })
+
+
+
+Consultas SQL vs NOSQL
+--------------------------------
+--------------------------------
+SELECT username, email FROM users;
+db.users.find({}, { username: 1, email: 1 });
+
+
+SELECT * FROM users WHERE age > 25;
+db.users.find({ age: { $gt: 25 } });
+*---------*
+
+SELECT * FROM users WHERE age < 25;
+db.users.find({ age: { $lt: 25 } });
+
+*---------*
+SELECT * FROM users WHERE age = 25;
+db.users.find({ age: 25 });
+
+
+SELECT * FROM users ORDER BY username ASC;
+db.users.find().sort({ username: 1 }); // 1 para ascendente, -1 para descendente
+*---------*
+
+SELECT COUNT(*) FROM users;
+db.users.countDocuments();
+*---------*
+
+SELECT department, COUNT(*) AS num_employees FROM employees GROUP BY department;
+db.employees.aggregate([
+  { $group: { _id: "$department", num_employees: { $sum: 1 } } }
+]);
+*---------*
+
+SELECT MAX(salary) FROM employees;
+db.employees.aggregate([
+  { $group: { _id: null, max_salary: { $max: "$salary" } } }
+]);
+
+
+
