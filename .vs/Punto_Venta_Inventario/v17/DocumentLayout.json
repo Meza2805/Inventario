@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Sistema de Inventario\\Inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\sistema de inventario\\inventario\\punto_venta_inventario\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\sistema de inventario\\inventario\\punto_venta_inventario\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\sistema de inventario\\inventario\\punto_venta_inventario\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\sistema de inventario\\inventario\\punto_venta_inventario\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|solutionrelative:punto_venta_inventario\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{880A4B8E-BD95-4513-B212-64285F0001C8}|Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj|c:\\sistema de inventario\\inventario\\punto_venta_inventario\\models\\registrar_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,11 +138,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 353,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\appsettings.Development.json",
+              "ToolTip": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\appsettings.Development.json",
+              "RelativeToolTip": "Punto_Venta_Inventario\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T15:01:27.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VistaCategoria.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
@@ -146,12 +163,11 @@
               "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Categoriums\\VistaCategoria.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T15:01:22.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:01:22.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Clientes\\Index.cshtml",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
@@ -172,12 +188,11 @@
               "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Productoes\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAO0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T14:15:54.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T14:15:54.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PuntoVentaInventarioContext.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
@@ -185,12 +200,11 @@
               "RelativeToolTip": "Punto_Venta_Inventario\\Models\\PuntoVentaInventarioContext.cs",
               "ViewState": "AQIAADIBAAAAAAAAAAAmwFMBAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T17:38:05.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T17:38:05.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
@@ -198,12 +212,11 @@
               "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAEMAAACbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T16:07:54.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T16:07:54.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CategoriumsController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\CategoriumsController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\CategoriumsController.cs",
@@ -215,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Categorium.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Models\\Categorium.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Categorium.cs",
@@ -227,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Cliente.cs",
@@ -239,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProductoesController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\ProductoesController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ProductoesController.cs",
@@ -251,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "InventariosController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\InventariosController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\InventariosController.cs",
@@ -263,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RegistrarProducto.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Models\\RegistrarProducto.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\RegistrarProducto.cs",
@@ -275,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Punto_Venta_Inventario.csproj",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Punto_Venta_Inventario.csproj",
@@ -287,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\wwwroot\\css\\site.css",
@@ -299,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ProveedorsController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\ProveedorsController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ProveedorsController.cs",
@@ -311,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ComprasController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\ComprasController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ComprasController.cs",
@@ -323,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Ventums\\Index.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Ventums\\Index.cshtml",
@@ -335,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Inventarios\\Index.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Inventarios\\Index.cshtml",
@@ -347,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Compras\\Index.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Compras\\Index.cshtml",
@@ -359,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "VentumsController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\VentumsController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\VentumsController.cs",
@@ -371,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Productoes\\Create.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Productoes\\Create.cshtml",
@@ -383,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\HomeController.cs",
@@ -395,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Proveedor.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Home\\Proveedor.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Proveedor.cshtml",
@@ -407,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Compra.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Home\\Compra.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Compra.cshtml",
@@ -419,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Cliente.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Home\\Cliente.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Cliente.cshtml",
@@ -431,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Venta.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Home\\Venta.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Venta.cshtml",
@@ -443,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Index.cshtml",
@@ -455,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Home\\Privacy.cshtml",
@@ -464,40 +477,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-16T16:07:00.044Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "45f0b9c7-f06f-4b80-a430-d70b0e647d6d",
-        "Display": 1,
-        "X": 159,
-        "Y": 69,
-        "Width": 989,
-        "Height": 444,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
-              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
-              "ToolTip": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
-              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T23:22:36.736Z",
-              "EditorCaption": ""
             }
           ]
         }
@@ -522,7 +501,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Producto.cs",
@@ -530,12 +509,11 @@
               "RelativeToolTip": "Punto_Venta_Inventario\\Models\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:49:12.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T15:49:12.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Registrar_Cliente.cs",
               "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
@@ -543,8 +521,7 @@
               "RelativeToolTip": "Punto_Venta_Inventario\\Models\\Registrar_Cliente.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:20:48.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:20:48.214Z"
             },
             {
               "$type": "Document",
@@ -554,9 +531,43 @@
               "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "Punto_Venta_Inventario\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAmwKUAAAAUAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAmwJ4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T22:42:26.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "45f0b9c7-f06f-4b80-a430-d70b0e647d6d",
+        "Display": 1,
+        "X": 159,
+        "Y": 69,
+        "Width": 989,
+        "Height": 444,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "ToolTip": "C:\\Sistema de Inventario\\Inventario\\Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "RelativeToolTip": "Punto_Venta_Inventario\\Views\\Proveedors\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T23:22:36.736Z",
               "EditorCaption": ""
             }
           ]
